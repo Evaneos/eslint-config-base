@@ -28,7 +28,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     }
     ```
 
-    **If you extend anything else, always end up as following:**
+    **If you need to extend the configuration with other plugins, make sure that `eslint-config/prettier` is the last item of the array**
 
     ```
     {
@@ -58,10 +58,3 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     ```
 
 <!-- 4. Copy the .tsconfig file from this repository into your project folder -->
-
----
-
-## To do:
-
--   [ ] lower peerDependencies' package's versions ?
--   [ ] jsx-a11y ?
