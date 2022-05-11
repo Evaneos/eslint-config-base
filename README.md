@@ -1,15 +1,13 @@
 # ESLint (and Prettier) config
 
-This package provides Evaneos's configs for front projects.
+This package provides Evaneos' configs for front projects.
 
--   .eslintrc as an extensible shared config.
--   .prettierrc as an importable file
-
-These are settings for ESLint and Prettier used by Evaneos.
+-   `.eslintrc` as an extensible shared config.
+-   `.prettierrc` as an importable file
 
 ## What it does
 
-This setup lints and formats your JavaScript code based on evaneos practices. Feel free to override the rules that make sense for you.
+This setup lints and formats your JavaScript code based on Evaneos practices. Feel free to override the rules that make sense for you.
 
 ## Installing
 
