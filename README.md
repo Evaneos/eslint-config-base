@@ -23,7 +23,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     ```
     {
        "extends": [
-          "@evaneos"
+          "@evaneos/eslint-config"
        ]
     }
     ```
@@ -33,7 +33,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     ```
     {
        "extends": [
-          "@evaneos",
+          "@evaneos/eslint-config",
           ...,
           "@evaneos/eslint-config/prettier",
        ]
