@@ -1,14 +1,14 @@
 {
     "name": "@evaneos/eslint-config-base",
     "version": "0.0.1",
-    "description": "This package provides Evaneos's configs for front projects.",
+    "description": "This package provides Evaneos's configs for JavaScript projects.",
     "main": "index.js",
     "scripts": {
         "test": "echo 'Not today'",
         "release": "standard-version"
     },
     "author": "Evaneos <dev@evaneos.com>",
-    "repository": "git@github.com:evaneos/front-config.git",
+    "repository": "git@github.com:Evaneos/eslint-config-base.git",
     "license": "ISC",
     "peerDependencies": {
         "@babel/core": "^7.2.0",

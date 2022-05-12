@@ -1,4 +1,5 @@
 module.exports = {
+    plugins: ['import'],
     rules: {
         'import/no-default-export': 2,
         'no-process-env': 0,

@@ -56,5 +56,3 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
         semi: false,
     };
     ```
-
-<!-- 4. Copy the .tsconfig file from this repository into your project folder -->
