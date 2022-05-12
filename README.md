@@ -14,8 +14,8 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
 1.  In your project folder, run:
 
     ```bash
-    npm i -D @evaneos/eslint-config
-    npx install-peerdeps --dev @evaneos/eslint-config
+    npm i -D @evaneos/eslint-config-base
+    npx install-peerdeps --dev @evaneos/eslint-config-base
     ```
 
 2.  You will see several dependencies were installed. Now, create (or update) a `.eslintrc` file with the following content:
@@ -23,7 +23,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     ```
     {
        "extends": [
-          "@evaneos/eslint-config"
+          "@evaneos/eslint-config-base"
        ]
     }
     ```
@@ -33,9 +33,9 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     ```
     {
        "extends": [
-          "@evaneos/eslint-config",
+          "@evaneos/eslint-config-base",
           ...,
-          "@evaneos/eslint-config/prettier",
+          "@evaneos/eslint-config-base/prettier",
        ]
     }
     ```
@@ -44,7 +44,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
 
     ```
     {
-       "prettier": "@evaneos/eslint-config/.prettierrc.js"
+       "prettier": "@evaneos/eslint-config-base/.prettierrc.js"
     }
     ```
 
@@ -52,7 +52,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
 
     ```js
     module.exports = {
-        ...require('@evaneos/eslint-config/.prettierrc.js'),
+        ...require('@evaneos/eslint-config-base/.prettierrc.js'),
         semi: false,
     };
     ```
