@@ -28,7 +28,7 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     }
     ```
 
-    **If you need to extend the configuration with other plugins, make sure that `eslint-config/prettier` is the last item of the array**
+    **If you need to extend the configuration with other plugins, make sure that `@evaneos/eslint-config-base/prettier` is the last item of the array**
 
     ```
     {
