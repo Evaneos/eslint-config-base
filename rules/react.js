@@ -5,7 +5,7 @@ module.exports = {
         react: {
             version: 'detect',
         },
-        'import/extensions': ['.js', '.jsx', '.css', '.ts', '.tsx'],
+        'import/extensions': ['.js', '.jsx', '.css'],
     },
     rules: {
         'react-hooks/exhaustive-deps': 1,
