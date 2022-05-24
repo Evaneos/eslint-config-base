@@ -18,7 +18,9 @@ This setup lints and formats your JavaScript code based on Evaneos practices. Fe
     npx install-peerdeps --dev @evaneos/eslint-config-base
     ```
 
-2.  You will see several dependencies were installed. Now, create (or update) a `.eslintrc` file with the following content:
+    You will see several dependencies were installed.
+
+2.  Now, create (or update) a `.eslintrc` file with the following content:
 
     ```
     {
