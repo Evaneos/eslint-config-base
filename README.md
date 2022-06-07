@@ -1,3 +1,7 @@
+# ⚠️ **DEPRECATED** ⚠️
+
+This repository is deprecated. Please refer to [front-config](https://github.com/Evaneos/front-config) monorepo.
+
 # ESLint (and Prettier) config
 
 This package provides Evaneos' configs for front projects.
